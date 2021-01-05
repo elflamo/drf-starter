@@ -91,7 +91,7 @@ DATABASES = {
     }
 }
 
-LOG_FILE = config('LOG_FILE', 'LOG_FILE')
+LOG_FILE = config('LOG_FILE', BASE_DIR+'/application_log.json')
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
